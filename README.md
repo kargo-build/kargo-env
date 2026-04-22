@@ -9,9 +9,6 @@ Add the dependency to your `kargo.toml` (or equivalent):
 sources:
   - github: kargo-build/kargo-env
     version: 1.0.0
-
-  - github: kargo-build/kargo-crypto
-    version: 1.0.0
 ```
 
 > Uses Kargo dependency manager. Versions follow semantic versioning.
