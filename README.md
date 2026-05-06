@@ -28,7 +28,7 @@ Lightweight .env loader for Kotlin Multiplatform, with simple parsing, environme
 ### Load `.env`
 
 ```kotlin
-import kargo.env.Dotenv
+import builders.kargo.env.Dotenv
 
 Dotenv.load()
 ```
@@ -36,7 +36,7 @@ Dotenv.load()
 ### Read variables
 
 ```kotlin
-import kargo.env.env
+import builders.kargo.env.env
 
 val dbUrl = env("DB_URL")
 val port = env("PORT", "8080")
