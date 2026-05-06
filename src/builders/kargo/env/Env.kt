@@ -1,4 +1,4 @@
-package build.kargo.env
+package builders.kargo.env
 
 fun env(key: String): String? =
     Platform.getenv(key) ?: Dotenv[key]
